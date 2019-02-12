@@ -50,3 +50,4 @@ $ sudo chown `id -un`:`id -un` -R userdata
 $ docker ps | grep brightics-studio:latest | awk '{system("docker stop " $1 "; docker rm " $1)}'
 ```
 
+
