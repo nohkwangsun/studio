@@ -51,3 +51,4 @@ $ docker ps | grep brightics-studio:latest | awk '{system("docker stop " $1 "; d
 ```
 
 
+
